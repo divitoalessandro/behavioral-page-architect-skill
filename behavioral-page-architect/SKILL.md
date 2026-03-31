@@ -13,16 +13,33 @@ The framework is built on a universal 5-section dramaturgy. The sections always 
 
 ## Step 1: Context Intake
 
-Before producing any structure, gather context from the user. Ask these questions conversationally (adapt phrasing to the flow, don't dump a numbered list):
+Before producing any structure, gather context from the user. Ask all questions upfront in a single turn to keep the flow efficient. Use the following question structure:
 
-1. **What product or service is this page for?** Get a clear description.
-2. **What industry or domain?** (e.g., insurance, SaaS, e-commerce, financial services, healthcare, B2B services). This affects which behavioral patterns carry more weight.
-3. **What is the primary conversion goal?** (e.g., purchase, lead generation, consultation booking, sign-up, download, quote request). This shapes the climax of the dramaturgy.
-4. **Who is the target audience?** Expertise level, motivations, anxieties. Even a rough sketch helps.
-5. **Is this a new or established brand?** Trust-building needs differ significantly.
-6. **Are there existing constraints?** (e.g., regulatory requirements, existing design system, specific content that must appear).
+**Question 1 — Open text (ask in chat, not as widget):**
+"What product or service is this page for? Give me a brief description."
+This is the only question that must be asked as a plain text question in the conversation, since the answer is unique to the user and cannot be pre-defined.
 
-Do not proceed until you have enough context to make informed decisions about pattern selection and weighting. If the user gives you a brief answer, probe for what you need — but don't over-interrogate. Two or three well-placed follow-ups usually suffice.
+**Question 2 — Widget with selectable options:**
+"What industry or domain?"
+Options: SaaS / E-Commerce / Insurance / Financial Services / Healthcare / B2B Services / Other
+
+**Question 3 — Widget with selectable options:**
+"What is the primary conversion goal?"
+Options: Purchase / Lead Generation / Consultation Booking / Sign-Up / Free Trial / Download / Quote Request
+
+**Question 4 — Widget with selectable options:**
+"Who is the target audience?"
+Options: Consumers (B2C) / Business Decision Makers (B2B) / Technical Users / Mixed Audience
+
+**Question 5 — Widget with selectable options:**
+"Is this a new or established brand?"
+Options: New / Established / Rebranding
+
+**Question 6 — Widget with selectable options:**
+"Are there specific constraints to consider?"
+Options: Regulatory Requirements / Existing Design System / Specific Content Mandated / No Constraints
+
+After receiving the answers, ask one brief follow-up in plain text if any answer needs more depth (e.g., if they selected "Other" for industry, or "Mixed Audience" for target audience). Do not proceed until you have enough context to make informed decisions about pattern selection and weighting.
 
 ---
 
