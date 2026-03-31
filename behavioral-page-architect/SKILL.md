@@ -1,20 +1,6 @@
 ---
 name: behavioral-page-architect
-description: >
-  Design behaviorally optimized product and service detail pages using a dramaturgical 5-section framework
-  (Arriving → Understanding → Choosing → Deep Diving → Closing). Use this skill whenever the user wants to
-  create, structure, plan, or optimize a product page, service page, landing page, detail page, or any
-  conversion-oriented page. Also trigger when the user mentions behavioral design for web pages, persuasion
-  patterns on pages, page structure optimization, CRO page planning, UX page architecture, or asks how to
-  structure a page that guides users toward a decision. This skill produces a section-by-section blueprint
-  with implicit user questions mapped, behavioral design patterns annotated, and content briefs per section —
-  then hands off to the frontend-design skill for component-level implementation.
-license: MIT
-metadata:
-  author: Alessandro Di Vito
-  version: 1.0.0
-  category: ux-behavioral-design
-  tags: [behavioral-design, cro, ux, conversion-optimization, page-architecture, persuasion-patterns]
+description: "Design behaviorally optimized product and service detail pages using a dramaturgical 5-section framework (Arriving, Understanding, Choosing, Deep Diving, Closing). Use this skill whenever the user wants to create, structure, plan, or optimize a product page, service page, landing page, detail page, or any conversion-oriented page. Also trigger when the user mentions behavioral design for web pages, persuasion patterns on pages, page structure optimization, CRO page planning, UX page architecture, or asks how to structure a page that guides users toward a decision. This skill produces a section-by-section blueprint with implicit user questions mapped, behavioral design patterns annotated, and content briefs per section, then hands off to the frontend-design skill for component-level implementation."
 ---
 
 # Behavioral Page Architect
